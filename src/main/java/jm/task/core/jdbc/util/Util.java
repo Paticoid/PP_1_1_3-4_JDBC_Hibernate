@@ -25,6 +25,7 @@ public class Util {
         public static Connection getMySQLConnection (String URL, String userName, String password)throws
         SQLException, ClassNotFoundException {
             Connection conn = DriverManager.getConnection(URL, userName, password);
+            conn.setAutoCommit(false);
             return conn;
         }
 
