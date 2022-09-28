@@ -42,6 +42,13 @@
     <connection id="92249c10-4398-49ea-bece-89ceed1b87a3" />
     <connection id="4b162aca-97e0-419f-85bf-99fd033bfc03" />
   </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="92249c10-4398-49ea-bece-89ceed1b87a3" dataset="pre-project.user" active-filter-id="EMPTY_FILTER">
+      <filter id="bedd24a5-da64-4b1d-a8f2-5aba2c56f7d3" name="Filter" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+  </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
   </component>
